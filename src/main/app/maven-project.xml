@@ -44,7 +44,7 @@ http://www.mulesoft.org/schema/mule/jms http://www.mulesoft.org/schema/mule/jms/
 			allowedMethods="GET"
 			doc:name="HTTP" />
 		<set-payload
-			value="#['Hello Maven']"
+			value="#['Hello Maven']" 
 			doc:name="Set Payload" />
 	</flow>
 	<flow name="retrieveFlights">
